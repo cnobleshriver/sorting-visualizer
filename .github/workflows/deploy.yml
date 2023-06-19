@@ -31,7 +31,7 @@ jobs:
         run: npm run build # replace with your build command if it's not "npm run build"
 
       - name: Deploy to gh-pages 🚀
-        uses: JamesIves/github-pages-deploy-action@4.4.2 # If not using this version, ensure it's the latest one
+        uses: JamesIves/github-pages-deploy-action@v4 # If not using this version, ensure it's the latest one
         with:
           branch: gh-pages
           folder: dist
