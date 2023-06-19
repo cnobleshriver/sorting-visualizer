@@ -1,0 +1,41 @@
+.app-container {
+  text-align: center;
+}
+
+.slider-container,
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.button-container button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button.selected {
+  background-color: #008CBA;
+  color: white;
+}
+
+.slider-container > div {
+  flex: 1;
+}
+
+.slider-container > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sort-button {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
