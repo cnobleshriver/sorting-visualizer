@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3 # If not using this version, ensure it's the latest one
         with:
-          node-version: 14 # specify the node version as per your project
+          node-version: 16 # specify the node version as per your project
 
       - name: Cache dependencies
         uses: actions/cache@v3
